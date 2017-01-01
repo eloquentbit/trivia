@@ -1,5 +1,8 @@
-body {
+html, body {
   font-family: "Noto Serif", serif;
+  letter-spacing: 0.5px;
+  color: #2E2F30;
+  height: 100vh;
 }
 
 .content {
@@ -11,4 +14,33 @@ body {
 
 .trivia {
   font-size: 50px;
+}
+
+.links {
+  text-align: center;
+}
+
+.links ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.links ul li {
+  display: inline;
+}
+
+.links ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  font-size: 16px;
+}
+
+a, a:hover, a:focus, a:visited {
+  color: #41B883;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
 }

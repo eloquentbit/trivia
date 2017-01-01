@@ -1,5 +1,9 @@
 <template>
-  <p>{{ message }}</p>
+  <div class="content">
+    <div class="trivia">
+      <p>{{ message }}</p>
+    </div>
+  </div>
 </template>
 
 <script>

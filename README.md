@@ -24,7 +24,7 @@ Install the dependencies:
 Go to [http://localhost:3000](http://localhost:3000)
 
 ### Production
-To run the demo in production mode:
+To run the app in production mode:
 ```bash
 $ npm run build
 $ npm start

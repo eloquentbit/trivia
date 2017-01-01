@@ -13,7 +13,7 @@ Live url: [https://trivia-skyjqsrvob.now.sh/](https://trivia-skyjqsrvob.now.sh/)
 ### Demo
 Clone the repository:
 ```bash
-$ git clone https://github.com/eloquentbit/trivia
+$ git clone https://github.com/eloquentbit/trivia.git
 ```
 
 Install the dependencies:

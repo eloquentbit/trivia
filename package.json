@@ -1,0 +1,20 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "description": "A simple Nuxt.js app that shows a random quote from http://numbersapi.com",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "latest"
+  },
+  "keywords": [
+    "Nuxt.js",
+    "Vue.js"
+  ],
+  "author": "Luca Peduto <luca@eloquentbit.com>",
+  "license": "MIT"
+}

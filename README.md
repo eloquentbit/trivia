@@ -1,5 +1,7 @@
 # Trivia
 
+> Nuxt.js project
+
 A simple app powered by [Nuxt.js](https://github.com/nuxt/nuxt.js) that shows a quote from http://numbersapi.com
 
 ## Tools

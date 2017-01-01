@@ -1,6 +1,6 @@
 <template>
   <div>
-    <message :message="message"></message>
+    <message></message>
     <links/>
   </div>
 </template>
@@ -15,10 +15,10 @@
       Message,
       Links,
     },
-    data ({ params }) {
+    fetch ({ store, params }) {
       return axios.get('http://numbersapi.com/random?json')
         .then((res) => {
-          return { message: res.data.text }
+          store.commit('setMessage', res.data.text)
         })
     }
   }

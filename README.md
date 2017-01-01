@@ -18,8 +18,8 @@ $ git clone https://github.com/eloquentbit/trivia.git
 
 Install the dependencies:
 ```bash
-> $ npm install
-> $ npm run dev
+$ npm install
+$ npm run dev
 ```
 Go to [http://localhost:3000](http://localhost:3000)
 

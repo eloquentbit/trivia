@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "nuxt": "latest"
   },
   "keywords": [

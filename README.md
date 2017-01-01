@@ -2,7 +2,7 @@
 
 A simple app powered by [Nuxt.js](https://github.com/nuxt/nuxt.js) that shows a quote from http://numbersapi.com
 
-Live url: [https://trivia-skyjqsrvob.now.sh/](https://trivia-skyjqsrvob.now.sh/)
+Live url: [https://trivia.now.sh/](https://trivia.now.sh/)
 
 ## Tools
 - [Nuxt.js](https://github.com/nuxt/nuxt.js)

@@ -2,6 +2,8 @@
 
 A simple app powered by [Nuxt.js](https://github.com/nuxt/nuxt.js) that shows a quote from http://numbersapi.com
 
+Live url: [https://trivia-skyjqsrvob.now.sh/](https://trivia-skyjqsrvob.now.sh/)
+
 ## Tools
 - [Nuxt.js](https://github.com/nuxt/nuxt.js)
 - [Axios library](https://github.com/mzabriskie/axios)

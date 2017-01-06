@@ -1,6 +1,7 @@
 html, body {
   font-family: "Noto Serif", serif;
   letter-spacing: 0.5px;
+  line-height: 1.5;
   color: #2E2F30;
   height: 100vh;
 }

@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <div class="trivia">
-      <p>{{ $store.state.message }}</p>
-    </div>
+  <div class="triviaText">
+    {{ $store.state.message }}
   </div>
 </template>
 

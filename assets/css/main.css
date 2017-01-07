@@ -3,23 +3,35 @@ html, body {
   letter-spacing: 0.5px;
   line-height: 1.5;
   color: #2E2F30;
-  height: 100vh;
+  height: 100%;
+}
+
+#__nuxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .content {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  max-width: 80%;
 }
 
-.trivia {
+.triviaText {
+  color: #57727C;
   font-size: 50px;
   text-align: center;
+  padding: 30px;
 }
 
 .links {
   text-align: center;
+  color: #57727C;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px;
+  border-top: 1px solid #D7DBDD;
 }
 
 .links ul {
@@ -43,7 +55,7 @@ a, a:hover, a:focus, a:visited {
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 

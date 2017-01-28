@@ -23,6 +23,28 @@ $ npm run dev
 ```
 Go to [http://localhost:3000](http://localhost:3000)
 
+### Build a docker image
+In the cloned directory you can find a Dockerfile:
+```bash
+$ docker build -t <tag> .
+```
+eg:
+```bash
+$ docker build -t lpt6/trivia
+```
+In order to run the image run the following command:
+```bash
+$ docker run -d -p 3000:3000 -e HOST=0.0.0.0 \
+--rm --name trivia <image name>
+```
+eg:
+```bash
+$ docker run -d -p 3000:3000 -e HOST=0.0.0.0 \
+--rm --name trivia lp76/trivia
+```
+
+Go to [http://localhost:3000](http://localhost:3000)
+
 ### Production
 To run the app in production mode:
 ```bash

@@ -1,5 +1,9 @@
-FROM node:alpine
+FROM alpine:latest
 MAINTAINER Luca Peduto <luca@eloquentbit.com>
+
+RUN apk update && apk upgrade
+RUN apk add nodejs
+RUN rm -rf /var/cache/apk/*
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app

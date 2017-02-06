@@ -30,7 +30,7 @@ $ docker build -t <tag> .
 ```
 eg:
 ```bash
-$ docker build -t lpt6/trivia
+$ docker build -t lp76/trivia
 ```
 In order to run the image run the following command:
 ```bash

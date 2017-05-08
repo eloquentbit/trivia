@@ -17,5 +17,9 @@
     "Vue.js"
   ],
   "author": "Luca Peduto <luca@eloquentbit.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eloquentbit/trivia.git"
+  },
   "license": "MIT"
 }

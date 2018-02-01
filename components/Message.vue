@@ -3,6 +3,3 @@
     {{ $store.state.message }}
   </div>
 </template>
-
-<script>
-</script>

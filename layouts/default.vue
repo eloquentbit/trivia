@@ -6,11 +6,11 @@
 </template>
 
 <script>
-  import AppFooter from '~components/Footer.vue'
+import AppFooter from "~/components/Footer";
 
-  export default {
-    components: {
-      AppFooter
-    }
+export default {
+  components: {
+    AppFooter
   }
+};
 </script>

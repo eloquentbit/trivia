@@ -1,25 +1,28 @@
-html, body {
+html,
+body {
   font-family: "Noto Serif", serif;
   letter-spacing: 0.5px;
   line-height: 1.5;
-  color: #2E2F30;
+  color: #2e2f30;
   height: 100%;
 }
 
-#__nuxt {
+#__layout {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
 }
 
 .content {
   max-width: 80%;
+  padding: 0;
+  margin: 0;
 }
 
 .triviaText {
-  color: #57727C;
+  color: #57727c;
   font-size: 50px;
   text-align: center;
   padding: 30px;
@@ -28,11 +31,11 @@ html, body {
 
 .links {
   text-align: center;
-  color: #57727C;
+  color: #57727c;
   font-size: 12px;
   font-weight: 700;
   padding: 15px;
-  border-top: 1px solid #D7DBDD;
+  border-top: 1px solid #d7dbdd;
 }
 
 .links ul {
@@ -47,12 +50,15 @@ html, body {
 
 .links ul li a {
   text-decoration: none;
-  padding: .2em 1em;
+  padding: 0.2em 1em;
   font-size: 16px;
 }
 
-a, a:hover, a:focus, a:visited {
-  color: #41B883;
+a,
+a:hover,
+a:focus,
+a:visited {
+  color: #41b883;
 }
 
 footer {
@@ -60,10 +66,12 @@ footer {
   text-align: center;
 }
 
-.page-enter-active, .page-leave-active {
-  transition: opacity .5s;
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
 }
 
-.page-enter, .page-leave-active {
+.page-enter,
+.page-leave-active {
   opacity: 0;
 }

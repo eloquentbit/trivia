@@ -68,10 +68,11 @@ footer {
 
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.5s;
+  transition: all 0.35s ease-in;
 }
 
 .page-enter,
 .page-leave-active {
   opacity: 0;
+  transform-origin: 50% 50%;
 }

@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "axios": "^0.15.3",
-    "nuxt": "^1.4.0"
+    "nuxt": "^1.4.5"
   },
   "keywords": [
     "Nuxt.js",
